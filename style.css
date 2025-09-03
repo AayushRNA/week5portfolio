@@ -1,0 +1,91 @@
+*{
+    font-family: "Google Sans Code", monospace;
+    /* border: 1px solid; */
+}
+
+body{
+    margin:0;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 0;
+    column-gap: 0;
+}
+
+img{
+    
+    margin-top: -150px;
+     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 50%, transparent);
+
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    width: 75%;
+    text-align: center;
+    z-index: 9;
+}
+
+.name{
+    color: brown;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    color: black;
+    margin: 0;
+    font-size: 25px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover{
+    color: ba;
+}
+
+
+
+.projects>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.projects{
+    background-color: rgb(48, 45, 45);
+    color: rgb(244, 241, 237);
+}   
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.experience>h2{
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.container{
+    border-bottom: 1px solid black;
+
+}
